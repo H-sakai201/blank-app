@@ -5,7 +5,7 @@ import os
 import shutil
 import datetime
 import my_function as my_func
-import DVD_copy
+import DVD_copy_web
 
 # アプリのタイトルと説明
 st.title("在庫と棚卸データ管理アプリ")
@@ -13,7 +13,7 @@ st.write("在庫データを管理し、棚卸データExcelシートを生成�
 
 # DVDコピー操作
 if st.button("DVDコピーを実行"):
-    DVD_copy.dvd_copy()
+    DVD_copy_web.dvd_copy()
     st.success("DVDコピーが完了しました。")
 
 # DVDとフォルダパスの設定
