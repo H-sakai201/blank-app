@@ -35,9 +35,12 @@ folders.sort(key=extract_number, reverse=True)
 read_path_1 = folders[0] + '\\' if len(folders) > 0 else None
 read_path_2 = folders[1] + '\\' if len(folders) > 1 else None
 
+print('1',read_path_1)
+print('2',read_path_2)
+
 
 # プロジェクトディレクトリにあるファイルパスを取得
-dvd_path = 'D:/VSCENZAI.CSV'
+dvd_path = 'D:\\VSCENZAI.CSV'
 
 #在庫データの読み込み
 # ファイルの存在確認
