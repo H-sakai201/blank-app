@@ -5,13 +5,8 @@ import os
 import shutil
 import datetime
 import re
-import folder_selecter
 import dvd_copy_web
-import streamlit as st
 import time  # 処理をシミュレーションするためのモジュール（実際の処理に置き換え）
-#import streamlit_app
-#import create_inventry_sheet.dvd_copy_web as dvd_copy_web
-#import my_function as my_func
 
 # アプリのタイトルと説明
 st.title("棚卸シート作成アプリ")
